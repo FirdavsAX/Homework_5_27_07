@@ -26,7 +26,7 @@
 
                     }
 
-                    if( repeatedWord.Length < enterStr.Substring(i,j).Length)
+                    if( repeatedWord.Length < enterStr.Substring(i,j).Length && repeatCount>1)
                     {
                         maxRepeat = repeatCount;
                         repeatedWord = enterStr.Substring(i, j);
